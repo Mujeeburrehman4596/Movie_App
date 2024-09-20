@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.stream-section, .movies-section, .news-section {
+    background-color: #333;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.content-card {
+    text-align: center;
+}
+
+.content-card img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.content-card p {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
